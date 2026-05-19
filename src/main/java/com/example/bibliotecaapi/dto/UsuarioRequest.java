@@ -1,0 +1,15 @@
+package com.example.bibliotecaapi.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class UsuarioRequest {
+
+    private String nombre;
+    private String correo;
+    private String tipoUsuario;
+}
