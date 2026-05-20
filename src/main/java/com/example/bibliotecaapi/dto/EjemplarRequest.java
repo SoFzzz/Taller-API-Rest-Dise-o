@@ -1,0 +1,13 @@
+package com.example.bibliotecaapi.dto;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class EjemplarRequest {
+    private String libroId;
+    private String estado;
+
+}
